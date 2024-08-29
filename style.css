@@ -14,9 +14,8 @@ body{
 
 .navegacion{
 
-    border: 1px solid yellow;
-    background: yellow;
-    border: 1px solid yellow;
+    border: 1px solid white;
+    background: white;
     margin-bottom:30px;
     padding: 10px;
     
@@ -36,7 +35,7 @@ body{
 
 .formulario{
 
-    background: red;
+    background: white;
     margin-right: 40px;
     width: 300px;
     padding-left: 10px;
@@ -51,6 +50,8 @@ margin: 15px;
 width: 90%;
 height: 30px;
 padding: 5px 10px;
+border-radius: 4px;
+border: 1px solid;
 
 
 }
@@ -60,7 +61,7 @@ padding: 5px 10px;
     padding: 9px 10px;
     margin: 15px;
     width: 250px;
-
+    border-radius: 4px;
 }
 
 
@@ -70,20 +71,27 @@ button{
     margin: 15px;
     width: 90%;
     padding: 5px;
+    border-radius: 4px;
+    border:0px solid;
+    background: rgb(85, 243, 85);
+    cursor: pointer;
 
 }
 
 .cajatabla{
 
-    background: aqua;
-    border: 1px solid aqua;
-    flex-grow: 1;
+    border-radius: 10px;
+    background: white;
+    flex-grow:1 ;
+
 }
 
 .tabla{
 
+    width: 100%;
     table-layout: fixed;
     border-collapse:collapse ;
+    
 
 }
 
@@ -92,13 +100,22 @@ th{
     padding: 5px 50px; 
     padding-bottom:20px;
     border-bottom: 1px solid;
+    
 }
 
 
 td{
 
     padding: 5px 50px;
-    padding-top: 10px;
-    
+    padding-top: 30px;
+    padding-left: 130px;
+
+
+}
+
+h3{
+
+    text-align: center;
+
 
 }
